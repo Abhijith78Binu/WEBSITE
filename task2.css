@@ -7,19 +7,35 @@ body {
 
 
 .Main {
-  height: 8%;
+  
   display: flex;
   align-items: center;
+  background-color: rgb(125, 139, 139);
+  
+  
+ 
+  
 }
 
 .logo{
   width: 100px;
   cursor: pointer;
+  padding: 40px;
+  margin-left: 10px;
 }
+ 
+    
+
 nav{
-  flex: 1;
-  text-align: right;
-  padding:30px
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+ 
+  
+
   
 }
 nav ul li{
@@ -29,9 +45,10 @@ nav ul li{
 }
 nav ul li a{
   text-decoration: none;
-  color: rgb(168, 40, 40);
-  font-size: 15px;
+  color: rgb(19, 17, 17);
+  font-size: 20px;
   font-weight: bold;
+  align-items: center;
 }
 
 
@@ -41,21 +58,22 @@ nav ul li a{
   padding: 130px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5); 
-  
-  color: rgb(197, 135, 135);
+  font-size: 30px;
+  color: rgb(7, 7, 7);
 }
 
   .join {
     text-decoration: none;
-    background-color: #cb7c9e; 
+    background-color: #110d0f; 
     border: none;
     color: white; 
     padding: 10px 20px; 
-    text-align: center;
+    
     display: inline-block;
    
     font-size: 16px;
     border-radius: 5px; 
+  
   }
   
 
