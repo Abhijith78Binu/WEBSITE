@@ -1,12 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('golfpic.png'); 
+ background-image: url(golfpic.png);
+  
   
 }
 
 
 .Main {
+  
+  margin: auto;
   
   display: flex;
   align-items: center;
@@ -30,9 +33,9 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 20px;
+  padding-left: 18%;
+  padding-right: 18%;
  
   
 
@@ -41,7 +44,7 @@ nav{
 nav ul li{
   list-style: none;
   display:inline-block;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 nav ul li a{
   text-decoration: none;
@@ -55,11 +58,14 @@ nav ul li a{
 
 
 .content {
-  padding: 130px;
+  margin: auto;
+  padding-bottom: 20px;
   text-align: center;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5); 
   font-size: 30px;
   color: rgb(7, 7, 7);
+  
 }
 
   .join {
@@ -75,5 +81,7 @@ nav ul li a{
     border-radius: 5px; 
   
   }
-  
-
+ 
+.About{
+  width:100%;
+}
