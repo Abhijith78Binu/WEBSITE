@@ -83,12 +83,8 @@ nav ul li a{
   }
 
 
-  *{
-    margin:0px;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;  
-  }
+
+  
  
 .About{
   width:100%;
@@ -106,6 +102,25 @@ nav ul li a{
    width: 100%;
    text-align: center;
    margin-bottom: 50px;
+}
+.New .golf{
+  text-align: center;
+  width: 40%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
+
+
+}
+.New .history{
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
 }
 
 .New .container h1{
@@ -152,6 +167,10 @@ nav ul li a{
   
 
 }
+.middle .historys{
+  color:black;
+  font-size: 23px;
+}
 .middle .article .button{
   margin-top: 50px;
 
@@ -177,4 +196,19 @@ nav ul li a{
   clear:both;
   margin-top: 50px;
   text-align: center;
+}
+.images-section2{
+    padding: 100px;
+}
+
+.Goal{
+  padding: 30px;
+ 
+  width: 50%;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
+   
+   
 }
