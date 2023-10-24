@@ -1,7 +1,8 @@
-body {
+body{
   margin: 0;
   padding: 0;
- background-image: url(golfpic.png);
+ 
+  
   
   
 }
@@ -14,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   background-color: rgb(125, 139, 139);
-  
+ 
   
  
   
@@ -36,7 +37,6 @@ nav{
   padding-top: 20px;
   padding-left: 18%;
   padding-right: 18%;
- 
   
 
   
@@ -66,8 +66,23 @@ nav ul li a{
   font-size: 30px;
   color: rgb(7, 7, 7);
   
+
+ 
 }
 
+.background{
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items:end;
+  background-image: url('newgolfbackground.png');
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  color: #fff;
+  height: 770px;
+  padding:20px 0px;
+}
   .join {
     text-decoration: none;
     background-color: #110d0f; 
@@ -80,13 +95,27 @@ nav ul li a{
     font-size: 16px;
     border-radius: 5px; 
   
+  
+ 
   }
 
+
+ 
+    
+    
+  
   .About{
-    width:100%;
+    
+    margin: auto;
+  
+    display: flex;
+    align-items: center;
+    background-color: rgb(125, 139, 139);
+   
+    
   
   }
-  .About .New {
+    .About .New {
     width: 80%;
     display: block;
     margin:0px auto;
@@ -101,7 +130,7 @@ nav ul li a{
   }
   .New .golf{
     text-align: center;
-    width: 50%;
+    width: 40%;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -118,7 +147,17 @@ nav ul li a{
     margin-bottom: 50px;
     color: black;
   }
-  
+
+.New .Goal{
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: black;
+}
+
   .New .container h1{
      text-transform: uppercase;
      font-size: 35px;
@@ -171,6 +210,165 @@ nav ul li a{
     font-size: 23px;
   }
 
+
+  
+  .image2 {
+    float: right;
+    width: 45%;
+    height: 45px; 
+    text-align: right;
+  }
+  
+  .image2 img {
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    margin-right: auto;
+    
+   
+  }
+
   
  
+  .middle .Goals{
+    color:black;
+    font-size: 23px;
+  }
+
+
+
+
   
+  
+  .newservice{
+    background-color: aquamarine;
+  }
+ 
+  .newservice h1{
+    text-align: center;
+    padding-top:  10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+    background-color: rgb(171, 171, 199);
+    
+    
+    
+    
+  }
+  
+  .newservice h1::after{
+  content: "";
+  height: 5px;
+  width: 100px;
+  background-color: rgb(12, 13, 13);
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+ 
+.row{
+  display: flex;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) ;
+  grid-gap: 30px;
+}
+
+.rows{
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) ;
+  grid-gap: 30px;
+}
+
+.our{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-left: 30px;
+ 
+
+}
+
+.serv{
+  background-color: aqua;
+  padding: 15px 15px 15px 5px;
+  width: 310px;
+  height: 70px;
+  text-align: center;
+  margin:10px;
+  border-radius: 10px;
+
+
+}
+.services0{
+  background-image: url(image\ 1.jpg);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+}
+
+
+
+.services1{
+  background-image: url(image\ 2.webp);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.services2{
+  background-image: url(image\ 3.jpg);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.services3{
+  background-image: url(image\ 5.webp);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.services4{
+  background-image: url(image\ 6.webp);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.services5{
+  background-image: url(inputimage.webp);
+  width:330px;
+  height:401;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+
+
+
