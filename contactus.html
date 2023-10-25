@@ -6,50 +6,97 @@
     <title>FORM</title>
 </head>
 <body>
+    <header>
+        <div class="Header">
+           
+            
+            <div class="Main">
+                
+                <img src="logo latest.png"  class="logo">
+                
+
+               
+                <nav>
+                    
+                    <ul>
+                        
+                        <li><a href="Task2.html">Home</a></li>
+                        <li><a href="Aboutus.html">About us</a></li>
+                        <li><a href="servicess.html">Services</a></li>
+                        <li><a href="contactus.html">Contact us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        
+                        
+                    </ul>
+                    
+                </nav>
+                
+            </div>
+        </div>
+    </header>
     
     
-    <form class="form">
+    <div class="form">
       
-
+            <h1>Connect with the team</h1>
         
-       <div  class="group">
-        <label> First Name: </label>
-        <input type="text" required >
-       </div>
-       <br>
-       <div class="last">
-        <label> Last Name: </label>
-        <input type="text" required>
-       </div>
-       <br>
-    
-       <div class="date">
-        <label> Date of birth:</label>
-        <input type="text" required>
-       </div>
-       <br>
 
-       <div class="email">
-        <label> Email id: </label>
-        <input type="text" required>
-       </div>
-       <br>
+        <div class="form1"> 
+            <div class="form-left">
+                <h3> Sent your Request </h3>
 
-       <div class="mob">
-        <label> Mobile number: </label>
-        <input type="text" required>
-       </div>
-       <br>
-       
-       <button class="submit"> Submit</button>
 
-       
-       
-       <button class="Go">Go back</button>
-    
-       
-    </div>
-    </form>
+                <form action="https://formspree.io/f/xgejdnpj" method="post">
+                    <div class="input-row">
+                        <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="input-group">
+                    <label>Phone</label>
+                    <input type="text" name="phone" required>
+                </div>
+                </div>
+
+
+                <div class="input-row">
+                    <div class="input-group">
+                    <label>Email</label>
+                    <input type="text" name="email" required>
+                </div>
+
+                <div class="input-group">
+                <label>Subject</label>
+                <input type="text" name="Subject" required>
+            </div>
+            </div>
+               <label>Message</label>
+                     <textarea rows="5" name="Your message"></textarea>
+                      <button type="Submit">Finish</button>
+                </form>
+
+
+            </div>
+            <div class="form-right">
+                <h3> Request with us </h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>abhijith88848@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Address</td>
+                        <td>dessauer strasse,berlin</td>
+                    </tr>
+                    
+                </table>
+
+            </div>
+        </div>
+      
+    </div>    
     
 </body>
 </html>

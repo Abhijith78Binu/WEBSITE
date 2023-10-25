@@ -1,7 +1,7 @@
 body{
-  margin: 0;
-  padding: 0;
- 
+  margin: 0px;
+  padding: 0px;
+  
  
   
   
@@ -429,53 +429,99 @@ nav ul li a{
 .form{
   
   
-  margin:auto;
-  border: 1px solid ;
-  padding: 60px;
-  width: 350px;
-  background-color: azure;
-
+ width: 80%;
+ margin: 50px auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      
 }
-.group{
- padding: 10px;
+
+.form1{
+  background: #fff;
+  display: flex;
 }
-.group input{
-  margin-left: 35px;
-  padding: 8px;
+
+.form-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
 }
-.last{
-  padding: 10px;
+
+.form-right{
+  flex-basis: 60%;
+  padding: 40px ;
+  background: rgb(207, 200, 192);
+  color: rgb(3, 3, 3);
 }
-.last input{
-  margin-left: 36px;
-  padding: 8px;
+h1{
+  margin-bottom: 10px;
 }
-.date{
-  padding: 10px;
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+
 
 }
-.date input{
-  margin-left: 24px;
-  padding: 8px;
+
+input{
+  width: 100%;
+  border:none;
+  border-bottom: 1px solid #bb5353;
+  outline:none;
+  padding-bottom: 5px;
+
 }
-.email{
+
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
   padding: 10px;
+  box-sizing: border-box;
 }
-.email input{
-  margin-left: 50px;
-  padding: 9px;
+
+label{
+  margin-bottom:  6px;
+  display:block;
+  color: #1c00b1;
 }
-.mob{
-  padding: 10px;
+
+
+button{
+  background: #8e81d6;
+  width: 100px;
+  border: none;
+  outline:none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 8px 5px 15px 0px rgba(28,0,181,0.3);
+
 }
-.mob input{
-  margin-left:6px;
-  padding: 8px;
+
+.form-left h1{
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+
 }
-.submit,.Go{
-  padding:6px;
-  margin-left: 80px;
+
+.form-right h3{
+  
+  font-weight: 600;
+  margin-bottom: 30px;
+
+  
+}
+
+tr td:first-child{
+      padding-right: 20px;
 }
 
 
