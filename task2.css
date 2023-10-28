@@ -88,156 +88,175 @@ nav ul li a{
   padding:20px 0px;
 }
   .join {
-    background-color: rgb(138, 136, 132);
+    background-color: rgb(222, 230, 127);
   
   
  
   }
 
 
- 
-  
-  
-  
-  .About{
-    
-    margin: auto;
-  
+.photo{
+  background-image: url('newgolfbackground.png');
+}
+
+
+  .heading{
+   
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: white;
+    flex-direction: column;
+    text-align:center;
    
-    
-  
+
+
   }
-    .About .New {
-    width: 80%;
-    display: block;
-    margin:0px auto;
-    padding: 50px 0px;
   
-  
-  }
-  .New .container{
-     width: 100%;
-     text-align: center;
-     margin-bottom: 50px;
-  }
-  .New .golf{
-    text-align: center;
-    width: 40%;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    color: black;
-  
-  
-  }
-  .New .history{
-    padding: 30px;
-    text-align: center;
-    width: 50%;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-    color: black;
+  .heading h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+
+
   }
 
-.New .Goal{
-  padding: 30px;
-  text-align: center;
-  width: 50%;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 50px;
-  color: black;
-}
-
-  .New .container h1{
-     text-transform: uppercase;
-     font-size: 35px;
-     color: black;
-  }
-  .New .container h1::after{
+  .heading h1::after{
     content: "";
-    height: 5px;
-    width: 100px;
-    background-color: rgb(12, 13, 13);
-    border-radius: 25px;
-    display: block;
-    margin: auto;
-  }
-  .middle{
-    float: left;
-    width:55%;
-  
-  
-  }
-  
-  
-.image-section {
-  float: right;
-  width: 30%; 
-  text-align: right;
-}
-
-.image-section img {
-  width: 100%;
-  height: auto;
-  margin: 60%;
-}
-  
-  
-  .middle .article h3{
-    color:black;
-    font-size: 30px;
-  
-  }
-  .middle .article p{
-    margin-top: 20px;
-    font-size: 23px;
-    line-height: 1.5;
-    color: black;
-    
-  
-  }
-  .middle .historys{
-    color:black;
-    font-size: 23px;
-  }
-
-
-  
-  .image2 {
-    float: right;
-    width: 45%;
-    height: 45px; 
-    text-align: right;
-  }
-  
-  .image2 img {
+    position: absolute;
     width: 100%;
-    height: auto;
-    padding: 100px;
-    margin-right: auto;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #afc6b0;
+  }
+  .heading p{
+    font-size: 18px;
+    color: #a86666;
+    margin-bottom: 35px;
+    font-family: cursive;
+  }
+
+
+
+  .heading1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+  }
+
+  .Aboutheading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  .aboutimage{ 
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 563px;
+    height: 600px;
+
+ }
+
+ .aboutimage img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+
+
+ }
+  
+ .aboutcontent{
+  flex: 1;
+ }
+  
+ .aboutcontent h1{
+  font-size: 23px;
+ 
+  color: #333;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   border-style: outset;
+   border-width: 5px;
+   border-color: bisque;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: #afc6b0;
+ }
+
+ .aboutcontent p{
+     font-size: 18px;
+     line-height: 1.5;
+     color: #131010;
+     padding: 40px;
+     border-style: outset;
+   border-width: 5px;
+   border-color: bisque;
+   border-radius: 15px;
+   padding: 20px;
+background-color: #8e81d6;
+ }
+
+
+
+.provide h1{
+ text-align: center;
+}
+ 
+.our1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+} 
+
+
+.provide1{
+ 
+    background-color: #bad0ba;
+    width:360px;
+    height: 300px;;
+    margin: 50px;
+    
     
    
-  }
+    
+}
+.face2{
+  padding: 15px 15px 15px 5px;
+  width: 310px;
+  height: 70px;
+  text-align: center;
+  margin:10px;
+  border-radius: 10px;
+
+}
+.face2 p{
+
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
 
   
- 
-  .middle .Goals{
-    color:black;
-    font-size: 23px;
-  }
-
-
-
-
-  
-  
+.pic{
+  background-image: url(newgolfbackground.png);
+}
   .newservice{
-    background-color: rgb(192, 206, 201);
+   
   }
  
   .newservice h1{
@@ -246,7 +265,7 @@ nav ul li a{
    height: 0px;
     font-weight: 600;
    
-    background-color: rgb(150, 150, 170);
+    background-color: rgb(255, 255, 255);
     
     
     
@@ -364,6 +383,10 @@ nav ul li a{
   align-items: end;
   justify-content: center;
 }
+
+
+
+
 
 
 
