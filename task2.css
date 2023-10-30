@@ -94,9 +94,37 @@ nav ul li a{
  
   }
 
+  @media (max-width: 768px) {
+    .Main {
+      display: block;
+      text-align: center;
+    }
+  
+    .logo {
+      padding: 10px;
+      margin: 0;
+      align-items: center;
+    }
+  
+    .content{
+      font-size: 20px;
+    }
+    nav {
+      display: block;
+      padding: 0;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  
+  /*about us*/
 
-.photo{
-  background-image: url('newgolfbackground.png');
+.all{
+  background-image: url(newgolfbackground.png);
 }
 
 
@@ -246,10 +274,60 @@ background-color: #8e81d6;
 }
 
 
+@media screen and (max-width: 768px ) {
+  .logo {
+      width: 60px;
+  }
+
+  nav ul li {
+      margin: 0 5px;
+  }
+
+  .heading h1 {
+      font-size: 30px;
+  }
+
+  .heading h1::after {
+      height: 2px;
+  }
+
+  .heading p {
+      font-size: 12px;
+      margin-bottom: 10px;
+  }
+
+  .aboutimage {
+      max-height: 300px;
+      margin-bottom: 10px;
+  }
+
+  .aboutcontent h1 {
+      font-size: 20px;
+            padding: 5px;
+            border-width: 3px;
+            border-radius: 8px;
+       }
 
 
 
+  .aboutcontent p {
+      font-size: 16px;
+      padding: 10px;
+      border-width: 3px;
+      border-radius: 10px;
+  }
 
+  .provide1 {
+    width: 90%; 
+}
+
+.our1 {
+    margin-left: 0; 
+}
+
+}
+
+/*Services*/
 
   
 .pic{
@@ -432,7 +510,7 @@ background-color: #8e81d6;
 
 
 
-
+/*contact form*/
 
 
 
@@ -443,7 +521,7 @@ background-color: #8e81d6;
 
 .form{
   
-  
+ 
  width: 80%;
  margin: 50px auto;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -537,18 +615,24 @@ button{
 
 tr td:first-child{
       padding-right: 20px;
+
 }
+
+
+/*Faq*/
 
 
 .faqback{
   background-image:url(newgolfbackground.png);
+
 }
 .faq{
-  margin: 0 300px;
+  margin: 0 500px;
   max-width: 600px;
  display: flex;
  flex-direction: column;
  gap: 20px;
+ align-items: center;
 
 
 }
