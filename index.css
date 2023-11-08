@@ -120,6 +120,7 @@ nav ul li a{
   
     .content{
       font-size: 20px;
+       color: rgb(7, 7, 7);
     }
     nav {
       padding: 10px 0; 
@@ -853,6 +854,9 @@ tr td:first-child{
       
       margin: 0 20px; /* For Adjust the screen size */
       max-width: none; 
+  }
+  .faq h1{
+    padding: 70px;
   }
  
   .faq .tab {
